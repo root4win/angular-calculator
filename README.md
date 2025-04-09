@@ -1,5 +1,5 @@
 # Calculadora
-<img alt="calc-demo-image" src="https://raw.githubusercontent.com/root4win/angular-calculator/blob/v1/calc.png" />
+<img alt="calc-demo-image" src="https://raw.github.com/root4win/angular-calculator/blob/v1/calc.png" />
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.5.
 
 ## Development server
