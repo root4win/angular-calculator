@@ -1,0 +1,43 @@
+<div class="container-calculator">
+  <div class="container-screen">
+      <input type="text" [value]="displayedNumber">
+  </div>
+  <div class="container-calculator-btn">
+    <ul class="row">
+      <li><button (click)="calculatePercentage()">%</button></li>
+      <li><button (click)="clearAll()">CE</button></li>
+      <li><button (click)="clearDisplayedNumber()">C</button></li>
+      <li><button (click)="backspace()">&#9003;</button></li>
+  </ul>
+  <ul class="row">
+    <li><button (click)="setOperator('/')">/</button></li>
+    <li><button (click)="squareRoot()">&radic;</button></li>
+    <li><button (click)="calculateSquare()">x2</button></li>
+    <li><button (click)="calculateReciprocal()">1/x</button></li>
+  </ul>
+  <ul class="row">
+    <li><button (click)="displayNumber('7')">7</button></li>
+    <li><button (click)="displayNumber('8')">8</button></li>
+    <li><button (click)="displayNumber('9')">9</button></li>
+    <li><button (click)="setOperator('*')">X</button></li>
+  </ul>
+  <ul class="row">
+    <li><button (click)="displayNumber('4')">4</button></li>
+    <li><button (click)="displayNumber('5')">5</button></li>
+    <li><button (click)="displayNumber('6')">6</button></li>
+    <li><button (click)="setOperator('-')">-</button></li>
+  </ul>
+  <ul class="row">
+    <li><button (click)="displayNumber('1')">1</button></li>
+    <li><button (click)="displayNumber('2')" >2</button></li>
+    <li><button (click)="displayNumber('3')">3</button></li>
+    <li><button (click)="setOperator('+')">+</button></li>
+  </ul>
+  <ul class="row">
+    <li><button (click)="absoulute()">+/-</button></li>
+    <li><button (click)="displayNumber('0')">0</button></li>
+    <li><button (click)="addDot()">,</button></li>
+    <li><button (click)="operations()">=</button></li>
+  </ul>
+</div>
+</div>
